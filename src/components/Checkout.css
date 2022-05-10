@@ -1,0 +1,30 @@
+.checkout {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.checkout__products{
+    flex: 3;
+    border-right: 1px solid #f3f3f3;
+}
+
+.checkout__products > h1{
+    text-align:left;
+    border-bottom: 1px solid #f3f3f3;
+    margin-left: 30px;
+    font-weight:normal;
+    font-size:20px;
+}
+
+.checkout__total{
+    flex: 1;
+}
+
+.checkout__title > h1 {
+    text-align:right;
+    border-bottom: 1px solid #f3f3f3;
+    margin-left: 30px;
+    font-weight:normal;
+    font-size:20px;
+}

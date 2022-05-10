@@ -1,0 +1,24 @@
+.checkoutProduct{
+    display:flex;
+    margin: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoutProduct__rating{
+    color:#E37B2C;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+.payment__container{
+    border: 1px solid #796B50;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    background-color:#F8F8F9;
+}
+
+.payment__title{
+border-bottom: 1px solid #796B50;
+font-size: 2.5em;
+color:#796B50;
+margin-bottom: 25px;
+}
+
+.payment__method, .payment__address, .payment__order {
+    display: flex;
+    padding: 20px;
+}
+
+.payment__order{
+    flex-direction: column;
+}
+.payment__header{
+    text-align: left;
+    color: #796B50;
+    flex: 0.2;
+}
+
+.payment__detail{
+    flex: 0.8;
+    
+}

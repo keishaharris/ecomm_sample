@@ -1,0 +1,67 @@
+.home {
+    /* background: linear-gradient(#EEC59B, #fff);  */
+    /* background: linear-gradient(#8a97d0, #ffffff); */
+    width:100%;
+}
+
+
+.home__banner > img {
+    width: 100%;
+}
+
+.home__banner {
+    position: relative;
+}
+
+.home__title{
+    position: absolute;
+    background: rgb(243,243,243, 0.6);
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    display:flex;
+    align-items: center;
+    justify-self: center;
+    display:flex;
+}
+
+.home__title > h1 {
+    color: #9A4D05;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    text-align:center;
+
+}
+
+.home__shopNow{
+    position: absolute;
+    background:#E37B2C;
+    color: #fff;
+    padding: 20px;
+    top: 65%;
+    left: 45%;
+}
+
+.home__rows{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.home__button{
+    width: 100%;
+    background: rgb(243,243,243, 0.6);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.home__link{
+    color:#2D5401;
+}
+
+.home__link:hover{
+    color:#9A4D05;
+}
